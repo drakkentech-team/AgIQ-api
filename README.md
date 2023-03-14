@@ -1,25 +1,18 @@
 ## FIRST TIME INSTALL ##
-- pip install virtualenv
-- virtualenv venv
-- source ./venv/Scripts/activate
-(make sure you have entered into the venv)
-- pip install -r requirements.txt
-- deactivate
-​
+- Click on the setup.sh file
+- To run from termial enter: bash setup.sh
+
 ## TO RUN ##
-- windows(git bash) or linux > source ./venv/Scripts/activate
-(make sure you use the appropriate python command for version 3)
-- python app.py
+- Click on the run.sh file
+- To run from termial enter: bash run.sh
 ​
 ## TO EXIT ##
-(Ctrl+C to exit server)
-- deactivate
-(... to exit venv)
+- Ctrl+C to exit server
 ​
 ## POST VENV SYSTEM CHANGES ##
-(enter your virtual environment)
+- Enter your virtual enviroment by entering: source ./venv/Scripts/activate
 - pip freeze > requirements.txt
-​
+
 ## UPDATE VENV SYSTEM CHANGES ##
-(enter your virtual environment)
-- pip install -r requirements.txt
+- Click on the setup.sh file
+- To run from termial enter: bash setup.sh
